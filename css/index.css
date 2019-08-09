@@ -214,3 +214,50 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page */
+
+.full-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.full-content .text-container {
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.about-bottom-content {
+    margin-bottom: 40px;
+}
+
+.about-bottom-content .text-container {
+    padding: 0 1%;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.about-middle-content .middle-content-item {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.about-middle-content .middle-content-item img {
+    margin-bottom: 15px;
+}
+.about-middle-content .middle-content-item p {
+    margin-bottom: 15px;
+}
+.about-middle-content .middle-content-item button {
+    display: block;
+    padding: 8px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
