@@ -258,6 +258,7 @@ footer nav a {
 
 .about-middle-content .middle-content-item img {
     margin-bottom: 15px;
+    animation: float 1s alternate infinite;
 }
 .about-middle-content .middle-content-item p {
     margin-bottom: 15px;
@@ -269,3 +270,8 @@ footer nav a {
     border-radius: 5px;
     margin-bottom: 15px;
 }
+
+@keyframes float {
+    from { transform: translateY(5px); }
+    to   { transform: translateY(-5px); }
+  }
