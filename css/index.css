@@ -97,6 +97,14 @@ header {
     justify-content: space-evenly;
 }
 
+.nav-list li {
+    transition: all 250ms linear;
+}
+
+.nav-list li:hover {
+    transform: translateY(1px) scale(1.1);
+}
+
 .header-image-container img {
     width: 100%;
 }
