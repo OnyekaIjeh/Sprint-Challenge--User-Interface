@@ -66,9 +66,47 @@ p {
     line-height: 1.4;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+header {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.nav {
+    flex-grow: 1;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-list li {
+    transition: all 250ms linear;
+}
+
+.nav-list li:hover {
+    transform: translateY(1px) scale(1.1);
+}
+
+.header-image-container img {
+    width: 100%;
 }
 
 .top-content {
@@ -112,6 +150,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box.box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box.box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box.box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box.box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box.box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box.box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box.box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box.box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box.box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box.box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +222,57 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page */
+
+.full-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.full-content .text-container {
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.about-bottom-content {
+    margin-bottom: 40px;
+}
+
+.about-bottom-content .text-container {
+    padding: 0 1%;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.about-middle-content .middle-content-item {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.about-middle-content .middle-content-item img {
+    margin-bottom: 15px;
+    animation: float 5s alternate infinite;
+}
+.about-middle-content .middle-content-item p {
+    margin-bottom: 15px;
+}
+.about-middle-content .middle-content-item button {
+    display: block;
+    padding: 8px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50%   { transform: translateY(-5px); }
+    100%   { transform: translateY(0px); }
+  }
